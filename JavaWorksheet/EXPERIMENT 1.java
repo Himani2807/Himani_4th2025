@@ -1,7 +1,7 @@
-Aim
+Aim:
 Create a class Animal with a method makeSound() that outputs a generic sound.The class should further contain derived classes Dog and Cat that override the makeSound() method to output specific sounds for each animal. Demonstrate polymorphism by creating an Animal reference that can hold objects of both Dog and Cat, and call the overridden makeSound() method at runtime.
 
-CODE
+Code:
 class Animal {
     void makeSound() {
         System.out.println("Some generic animal sound");
@@ -37,7 +37,7 @@ public class Main {
     }
 }
 
-OUTPUT
+OUTPUT:
 Woof! Woof!
 Meow! Meow!
 Woof! Woof!
